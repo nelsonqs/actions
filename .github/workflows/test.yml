@@ -6,6 +6,8 @@ jobs:
     steps:
     - name: Hola mundo
       run: echo "Hola Mundo"
+    - name: touch
+      run: touch hola.txt
   other:
     runs-on: ubuntu-latest
     steps:
